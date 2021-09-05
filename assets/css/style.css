@@ -4,7 +4,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+.img-profile {
+	max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
 p {
 	margin: 0;
 	padding: 0;
