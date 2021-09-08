@@ -3,33 +3,6 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-import GitHubCalendar from 'react-github-calendar';
-
-interface Day {
-	date: string;
-	count: number;
-	level: 0 | 1 | 2 | 3 | 4;
-}
-
-
-function transformData(data: Array < Day > ): Array < Day > ;
-const selectLastHalfYear = contributions => {
-	const currentYear = new Date().getFullYear();
-	const currentMonth = new Date().getMonth();
-	const shownMonths = 6;
-
-	return contributions.filter(day => {
-		const date = new Date(day.date);
-		const monthOfDay = date.getMonth();
-
-		return (
-			date.getFullYear() === currentYear &&
-			monthOfDay > currentMonth - shownMonths &&
-			monthOfDay <= currentMonth
-		);
-	});
-};
-
 (function ($) {
 
 	var $window = $(window),

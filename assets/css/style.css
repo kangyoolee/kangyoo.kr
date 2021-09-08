@@ -2398,7 +2398,12 @@ input[type="radio"]:focus+label:before {
 }
 
 /* List */
-
+.name{
+	margin-bottom: 0;
+}
+.name2{
+	margin-top: 0;
+}
 ol {
 	list-style: decimal;
 	margin: 0 0 2em 0;
@@ -2789,7 +2794,7 @@ table.alt tbody tr td {
 	-moz-flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	-moz-justify-content: center;
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
