@@ -2789,7 +2789,7 @@ table.alt tbody tr td {
 	-moz-flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	-moz-justify-content: center;
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
@@ -2798,6 +2798,7 @@ table.alt tbody tr td {
 	margin: 0 0 3em -2em;
 	padding: 0;
 	list-style: none;
+	align-items: flex-end
 }
 
 .features li {
@@ -3001,9 +3002,11 @@ table.alt tbody tr td {
 .spotlight .image img {
 	display: block;
 	border-radius: 100%;
-	width: 16em;
+	width: 12em;
 }
-
+.skill-name{
+	margin-top: 8px;
+}
 @media screen and (max-width: 980px) {
 
 	.spotlight {
