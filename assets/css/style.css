@@ -4,18 +4,27 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+.Box {
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 6px;
+}
+
 .img-profile {
 	max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+	max-height: 10rem;
+	border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
+
 p {
 	margin: 0;
 	padding: 0;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 
 .background {
@@ -2398,12 +2407,14 @@ input[type="radio"]:focus+label:before {
 }
 
 /* List */
-.name{
+.name {
 	margin-bottom: 0;
 }
-.name2{
+
+.name2 {
 	margin-top: 0;
 }
+
 ol {
 	list-style: decimal;
 	margin: 0 0 2em 0;
@@ -2773,9 +2784,11 @@ table th {
 table thead {
 	border-bottom-color: rgba(255, 255, 255, 0.35);
 }
-.aaa{
+
+.aaa {
 	margin: 4em;
 }
+
 table tfoot {
 	border-top-color: rgba(255, 255, 255, 0.35);
 }
@@ -2785,11 +2798,11 @@ table.alt tbody tr td {
 }
 
 /* Features */
-.projects {
-	width: 50%
-	box-shadow: inset 0 0 0 1px #dddddd;
-    color: #636363;
+.project-flex {
+	box-shadow: inset 0 0 0 1px #636363;
+	border-color: #000000;
 }
+
 .features {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -2807,9 +2820,18 @@ table.alt tbody tr td {
 	margin: 0 0 3em -2em;
 	padding: 0;
 	list-style: none;
-	align-items: flex-end
+	align-items: stretch;
 }
-
+.ap{
+	margin-top: 10px;
+}
+.skill-detail {
+	opacity: 0.7;
+	margin: 0;
+}
+.skill-detail-a {
+	margin-bottom: 10px;
+}
 .features li {
 	width: calc(33.33333% - 2em);
 	margin-left: 2em;
@@ -3013,9 +3035,12 @@ table.alt tbody tr td {
 	border-radius: 100%;
 	width: 12em;
 }
-.skill-name{
+
+.skill-name {
 	margin-top: 10px;
+	margin-bottom: 3.5px;
 }
+
 @media screen and (max-width: 980px) {
 
 	.spotlight {
