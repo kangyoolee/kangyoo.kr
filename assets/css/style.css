@@ -2409,10 +2409,12 @@ input[type="radio"]:focus+label:before {
 /* List */
 .name {
 	margin-bottom: 0;
+	white-space: nowrap;
 }
 
 .name2 {
 	margin-top: 0;
+	white-space: nowrap;
 }
 
 ol {
@@ -2830,7 +2832,9 @@ table.alt tbody tr td {
 	margin: 0;
 }
 .skill-detail-a {
-	margin-bottom: 10px;
+	margin: 10px;
+	margin-bottom: 3px;
+	opacity: 0.7;
 }
 .features li {
 	width: calc(33.33333% - 2em);
