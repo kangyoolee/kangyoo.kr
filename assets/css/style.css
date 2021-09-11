@@ -81,6 +81,25 @@ html {
 	box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
+	-moz-animation: none !important;
+	-webkit-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+	-moz-transition: none !important;
+	-webkit-transition: none !important;
+	-ms-transition: none !important;
+	transition: none !important;
+}
+
 /* Type */
 @media screen and (max-width: 1680px) {
 
@@ -919,11 +938,21 @@ input[type="radio"]:focus+label:before {
 	opacity: 0.7;
 }
 
+ol {
+	list-style: decimal;
+	margin: 0 0 2em 0;
+	padding-left: 1.25em;
+}
+
 ol li {
 	padding-left: 0.25em;
 }
 
-
+ul {
+	list-style: disc;
+	margin: 0 0 2em 0;
+	padding-left: 1em;
+}
 
 ul li {
 	padding-left: 0.5em;
